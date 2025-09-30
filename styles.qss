@@ -1,0 +1,178 @@
+/* Adobe Illustrator Darkest Theme QSS */
+
+/* General Styles */
+QWidget {
+    color: #D0D0D0;
+    background-color: #191919;
+    selection-background-color: #191919;
+    selection-color: white;
+    border: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Section Separator */
+QFrame[frameShape="4"] { /* QFrame::HLine */
+    border: none;
+    border-top: 2px solid #333;
+    margin: 24px 0 24px 0;
+}
+
+/* Header and Section Titles */
+QLabel#header {
+    font-size: 38px;
+    font-weight: bold;
+    color: #D0D0D0;
+    letter-spacing: 2px;
+}
+QLabel#subtitle {
+    font-size: 22px;
+    color: #b0b9c7;
+    margin-bottom: 24px;
+}
+QLabel#result_label {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+/* Tooltip */
+QToolTip {
+    border: 1px solid #333;
+    background-color: #222;
+    color: white;
+    padding: 5px;
+}
+
+/* Progress Bar */
+QProgressBar {
+    border: 1px solid #333;
+    background: #191919;
+    text-align: center;
+    color: #D0D0D0;
+}
+
+QProgressBar::chunk {
+    background-color: #191919;
+}
+
+/* Checkboxes & Radio Buttons */
+QCheckBox, QRadioButton {
+    spacing: 5px;
+    color: #D0D0D0;
+}
+
+QCheckBox::indicator, QRadioButton::indicator {
+    width: 16px;
+    height: 16px;
+}
+
+QCheckBox::indicator:checked,
+QRadioButton::indicator:checked {
+    background: #191919;
+    border: 1px solid #191919;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #191919;
+    color: white;
+    border: none;
+    padding: 18px 40px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    min-width: 180px;
+    margin: 10px;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 16px #000a;
+    transition: background 0.2s;
+}
+
+QPushButton:hover {
+    background-color: #333;
+}
+
+QPushButton:pressed {
+    background-color: #444;
+}
+
+/* Menus */
+QMenuBar {
+    background-color: #1E1E1E;
+    color: #D0D0D0;
+}
+
+QMenu {
+    background-color: #1E1E1E;
+    color: #D0D0D0;
+    border: 1px solid #333;
+}
+
+QMenu::item:selected {
+    background-color: #191919;
+    color: white;
+}
+
+/* Scroll Bars */
+QScrollBar:horizontal, QScrollBar:vertical {
+    background: #222;
+    border: 1px solid #333;
+}
+
+QScrollBar::handle:horizontal, QScrollBar::handle:vertical {
+    background: #444;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:horizontal:hover, QScrollBar::handle:vertical:hover {
+    background: #555;
+}
+
+/* Line Edits */
+QLineEdit, QTextEdit, QPlainTextEdit {
+    background-color: #222;
+    border: 1px solid #444;
+    color: #D0D0D0;
+}
+
+/* Group Boxes */
+QGroupBox {
+    border: 1px solid #333;
+    background-color: #1E1E1E;
+    color: #D0D0D0;
+}
+
+/* Tables and Headers */
+QHeaderView::section {
+    background-color: #222;
+    color: #D0D0D0;
+    border: 1px solid #333;
+}
+
+QListWidget, QTreeWidget, QTableWidget {
+    background-color: #191919;
+    color: #D0D0D0;
+    border: 1px solid #333;
+}
+
+/* Status Bar */
+QStatusBar::item {
+    border: 1px solid #333;
+}
+
+/* Splitter */
+QSplitter::handle {
+    background-color: #333;
+}
+
+/* Main Window */
+QMainWindow {
+    background-color: #191919;
+}
+
+/* Custom Colors for Highlights */
+.highlight {
+    background-color: #191919;
+    color: white;
+}
