@@ -1,5 +1,4 @@
 /* Adobe Illustrator Darkest Theme QSS */
-
 /* General Styles */
 QWidget {
     color: #D0D0D0;
