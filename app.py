@@ -3,6 +3,7 @@ from PyQt5 import QtWidgets
 from utils import ModelWrapper
 from ui import ClassifierUI
 
+
 class AlzheimerApp(QtWidgets.QMainWindow):
     def __init__(self, model_path, classes):
         super().__init__()
