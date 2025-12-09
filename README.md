@@ -14,6 +14,7 @@ A PyTorch + PyQt5 desktop app for classifying Alzheimer’s disease stages from 
 - **[License](#license)**
 - **[Acknowledgements / Credits](#acknowledgements--credits)**
 
+
 ---
 
 ## Demo
